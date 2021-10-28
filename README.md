@@ -1,2 +1,6 @@
 # grouse_GA_data
-Survey and detection data for Lewis et al. Abundance and distribution of ruffed grouse (Bonasa umbellus) at the southern periphery of the range: Implications for harvest management
+Survery and detection data of ruffed grouse in North Georgia from Lewis et al. "Abundance and distribution of ruffed grouse (Bonasa umbellus) at the southern periphery of the range: Implications for management".
+
+Drumming male grouse were surveyed during the springs of 2020 - 2021 in North Georgia via roadside drumming surveys. Grouse were surveyed at survey points, with survey points grouped together along roadside routes. Observers performed 5-minute 200 m radius point counts, estimating the distance (binned to 20m) to any grouse heard drumming and recording survey-specific covariates. Each sampling point was surveyd ~3 times during each year. This repository contains two dataframes used in analysis.
+
+The first dataframe, RUGR_counts.csv, contains data on the detections of drumming ruffed grouse. "Route" refers to the roadside survey route, while "Point" refers to the survey point along the roadside route. "Date" refers to the date of the survey, "Time" refers to the time (EST) at which the survey was started, and "Distance" refers to the estimated distance band (m) between the observer and the drumming grouse. Note that this dataframe contains only detections and does not contain non-detections. Also note that multiple grouse were detected in the same distance band on some surveys.
